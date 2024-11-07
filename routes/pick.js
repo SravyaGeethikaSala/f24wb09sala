@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET Instrument page. */
+/* GET random item page */
 router.get('/', function(req, res, next) {
-  res.render('instrument', { title: 'Search Results Instrument' });
+  res.render('randomitem', { title: 'A Random Item' });
 });
 
 module.exports = router;
